@@ -17,4 +17,4 @@ mongoose.connect(dbUri)
 app.listen(4000, () => { console.log('Server running on port 4000') });
 
 //Question 1 Map All Requests with the path "v1/api/recipes" to your router. GET request to your controller method
-app.use('/api/v1/recipes', recipeRoutes);
+app.use('/api/v1/recipes',);
